@@ -1,0 +1,525 @@
+body {
+	background-color: #CDCDCD;
+	background-image: url(../images/login_background1.jpg);
+}
+#container {
+	background-color: #b41f1f;
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#header {
+	height: 150px;
+	width: 960px;
+}
+#menu {
+	float: left;
+	height: 150px;
+	width: 960px;
+}
+#clear_header {
+	clear: both;
+}
+#content {
+	height: 600px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#clear_content {
+	clear: both;
+}
+#contact {
+	height: 100px;
+	width: 960px;
+}
+#container #header #menu ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 50px;
+}
+#container #header #menu ul li a {
+	display: block;
+	float: left;
+	height: 50px;
+	width: 190px;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #000;
+	font-weight: bold;
+	margin-right: 1px;
+	margin-left: 1px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#user_panel {
+	color: #FFFFFF;
+	float: right;
+	height: 50px;
+	width: 320px;
+	line-height: 50px;
+}
+#logo_Upanel {
+	color: #FFFFFF;
+	float: left;
+	height: 48px;
+	width: 153px;
+	line-height: 50px;
+	border: 0px solid #000;
+	padding-right: 5px;
+	background: transparent;
+}
+#left_Upanel {
+	color: #FFFFFF;
+	float: left;
+	height: 48px;
+	width: 153px;
+	line-height: 50px;
+	border: 0px solid #000;
+	padding-left: 5px;
+	background: transparent;
+}
+#right_Upanel {
+	color: #FFFFFF;
+	float: right;
+	height: 48px;
+	width: 153px;
+	border: 0px solid #000;
+	padding-left: 5px;
+	background: transparent;
+}
+#logo_icon {
+	float: left;
+	height: 40px;
+	width: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#left_icon {
+	float: right;
+	height: 40px;
+	width: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#right_icon {
+	float: right;
+	height: 40px;
+	width: 50px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#suv_content {
+	height: 700px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#suv_content_car1 {
+	height: 200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+#suv_content_car1_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#suv_content_car1_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#suv_content_car2 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#suv_content_car2_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#suv_content_car2_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#suv_content_car3 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#suv_content_car3_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#suv_content_car3_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#compact_content {
+	height: 700px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#compact_content_car1 {
+	height: 200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+#compact_content_car1_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#compact_content_car1_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#compact_content_car2 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#compact_content_car2_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#compact_content_car2_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#compact_content_car3 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#compact_content_car3_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#compact_content_car3_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#van_content {
+	height: 700px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#van_content_car1 {
+	height: 200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+#van_content_car1_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#van_content_car1_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#van_content_car2 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#van_content_car2_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#van_content_car2_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#van_content_car3 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#van_content_car3_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#van_content_car3_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#truck_content {
+	height: 700px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#truck_content_car1 {
+	height: 200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+#truck_content_car1_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#truck_content_car1_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#truck_content_car2 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#truck_content_car2_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#truck_content_car2_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#truck_content_car3 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#truck_content_car3_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#truck_content_car3_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#large_content {
+	height: 700px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#large_content_car1 {
+	height: 200px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+#large_content_car1_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#large_content_car1_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#large_content_car2 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#large_content_car2_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#large_content_car2_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#large_content_car3 {
+	height: 200px;
+	width: 960px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000;
+}
+#large_content_car3_image {
+	float: left;
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#large_content_car3_info {
+	float: right;
+	height: 100px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input {
+    margin: .4rem;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+		margin-top: 25px;
+		margin-left: 0px;
+}
+label.select_car {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+		margin-top: 25px;
+		margin-left: 10px;
+}
+.styled {
+    border: 0px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    border-radius: 0px;
+    background-color: #000000;
+		margin-top: 25px;
+		margin-left: 201px;
+}
+.styled:hover {
+    background-color: #404948;
+}
+.result-inner {
+	display: flex;
+	border: solid;
+	padding: 10px;
+	margin-top: 30px;
+}
+.result-cell {
+	border-right: solid;
+  margin-right: 20px;
+	padding:0px 10px;
+}
